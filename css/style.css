@@ -29,3 +29,8 @@ a:not([href]):hover {
 .card-link:hover{
   opacity: 0.8;
 }
+
+
+.breadcrumb > li + li:before {
+    content: ">";
+}
